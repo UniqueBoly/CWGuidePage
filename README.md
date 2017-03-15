@@ -20,7 +20,7 @@
         [self.window.layer addAnimation:transition forKey:@"animation"];
     }];
     
-    //这里可以设置pageControl的颜色，以及用runtime来设置pageControl的背景图片
+    //这里可以设置pageControl的颜色
     guidePage.pageControl.pageIndicatorTintColor = [UIColor whiteColor];
     guidePage.pageControl.currentPageIndicatorTintColor = [UIColor blueColor];
     self.window.rootViewController = guidePage;
