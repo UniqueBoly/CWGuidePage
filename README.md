@@ -1,5 +1,5 @@
 # CWGuidePage
-## 一款很简单的APP引导页，可定制性高，喜欢的给个star谢谢n(*≧▽≦*)n
+## 一款很简单的APP引导页，可定制性高
 使用方法，将文件拖入工程项目中，在 didFinishLaunchingWithOptions 中添加如下代码
     
     CWGuidePageViewController *guidePage = [[CWGuidePageViewController alloc] initWithPagesCount:3 setImage:^(NSIndexPath *indexPath, GuideCollectionViewCell *cell) {
